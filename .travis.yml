@@ -15,10 +15,10 @@ deploy:
   provider: elasticbeanstalk
   region: eu-central-1
   app: "docker-react"
-  env: "DockerReact-env"
+  env: "Murks-env"
   bucket_name: "elasticbeanstalk-eu-central-1-517192386284"
   bucket_path: "docker-react"
   on:
     branch: main 
-  access_key_id: "$AWS_ACCESS_KEY"
-  secret_access_key: "$AWS_SECRET_KEY"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
