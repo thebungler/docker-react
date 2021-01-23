@@ -1,0 +1,3 @@
+# tell EB to not use the compose file
+# which should make it use the Dockerfile
+docker-compose.yml
